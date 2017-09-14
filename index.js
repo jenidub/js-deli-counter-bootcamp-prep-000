@@ -19,8 +19,9 @@ function takeANumber(katzDeliLine, customer) {
 
 function nowServing(line){
   if (line.length > 0) {
-    return `Currently serving ${line[0]}.`
+    var person = line[0]
     line.shift()
+    return `Currently serving ${person}.`
   } else {
     return "There is nobody waiting to be served!"
   }
