@@ -6,8 +6,12 @@ function takeANumber(katzDeliLine, customer) {
 }
 
 function currentLine(line) {
+  var numbers = []
+  for (var i = 0; i < line.length; i++) {
+    numbers.push(i)
+  }
   if(line.length > 0) {
-    
+    console.log(`The line is currently: ${} `)
   } else {
     return "The line is currently empty."
   }
@@ -16,7 +20,7 @@ function currentLine(line) {
 function nowServing(){
   if (katzDeliLine.length > 0) {
     var person = katzDeliLine[0]
-    katzDeliLine.unshift()
+    katzDeliLine.shift()
     return `Currently serving ${person}`
   } else {
     return "There is nobody waiting to be served!"
