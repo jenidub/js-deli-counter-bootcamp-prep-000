@@ -1,4 +1,4 @@
-var katzDeli = []
+var katzDeliLine = []
 
 function takeANumber(katzDeliLine, customer) {
   katzDeliLine.push(customer)
