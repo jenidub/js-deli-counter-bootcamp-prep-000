@@ -5,6 +5,14 @@ function takeANumber(katzDeliLine, customer) {
   return `Welcome, ${customer}. You are number ${katzDeliLine.length} in line.`
 }
 
+function currentLine(line) {
+  if(line.length > 0) {
+    
+  } else {
+    return "The line is currently empty."
+  }
+}
+
 function nowServing(){
   if (katzDeliLine.length > 0) {
     var person = katzDeliLine[0]
