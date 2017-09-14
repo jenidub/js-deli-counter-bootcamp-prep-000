@@ -17,7 +17,7 @@ function takeANumber(katzDeliLine, customer) {
   }
 }*/
 
-function nowServing(){
+/*function nowServing(){
   if (katzDeliLine.length > 0) {
     var person = katzDeliLine[0]
     katzDeliLine.shift()
@@ -25,4 +25,4 @@ function nowServing(){
   } else {
     return "There is nobody waiting to be served!"
   }
-}
+}*/
