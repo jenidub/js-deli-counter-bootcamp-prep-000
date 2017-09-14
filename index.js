@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, customer) {
   return `Welcome, ${customer}. You are number ${katzDeliLine.length} in line.`
 }
 
-function currentLine(line) {
+/*function currentLine(line) {
   var numbers = []
   for (var i = 0; i < line.length; i++) {
     numbers.push(i)
@@ -15,7 +15,7 @@ function currentLine(line) {
   } else {
     return "The line is currently empty."
   }
-}
+}*/
 
 function nowServing(){
   if (katzDeliLine.length > 0) {
